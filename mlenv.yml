@@ -1,0 +1,33 @@
+name: mlenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - plotly
+  - pip
+  - pip:
+      - opencv-python
+      - tensorflow
+      - torch
+      - torchvision
+      - torchaudio
+      - xgboost
+      - lightgbm
+      - catboost
+      - tqdm
+      - folium
+      - imbalanced-learn
+      - scikit-optimize
+      - mlflow
+      - optuna
+      - fastapi
+      - uvicorn
